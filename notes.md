@@ -1,3 +1,7 @@
+### 26 July 2014
+- Consider using separate mongodb that is not packaged with Meteor,
+  since it will open up options like full-text search and Mass JSON DATA dump then check later once it's already inserted.
+
 ### 24 July 2014
 
 - DATA from `.json` should be inserted without any kind of check. Checking will happen with `forEach` after insert
